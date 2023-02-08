@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:50px;
+        }
+        .container{
+            font-size: 25px;
+            box-shadow: 0 5px 5px 0 rgba(19, 168, 198, 0.2);
+            
+        }
+        h3{ 
+            box-shadow: 5px;
+            font-size: 45px;
+            margin: 25px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+        }
+        .Price{ margin: 5px;
+            text-align: right;
+          font-size: 30px;
+          font-family: 'Franklin Gothic Medium';
+          color:rgba(137, 125, 205, 0.911);
+        }
+        #Price2{
+            font-size: 60px;
+            word-spacing: 5px;
+            margin: 20px;
+          font-size: 30px;
+          font-family:'Franklin Gothic Medium';
+          
+          color: grey;
+          /* color: cornflowerblue; */
+        }
+        .Price3{
+            margin: 10px;
+            border-radius: 5px;
+            font-family:'Franklin Gothic Medium';
+
+            border-style:hidden;
+            font-size: 26px;
+
+            color: aliceblue;
+            background-color: rgb(15, 222, 153);
+        }
+        img{
+            width: 500px;;
+            border-radius: 4%;
+        }
+    </style>
+</head>
+<body>
+<!-- <div class="card"> -->
+    <img src="LoveBabbar.jpg" alt="Avatar"
+    >
+    <div class ="container" style="padding: 5;">
+    
+       <h3 ><b> Web Development Master</b></h3>
+       <h3><b>Course @dot Batch</b></h3>   
+    
+</div>
+<h class="Price">  &#x20b9;4500  </h>
+<h id="Price2"> <strike>&#x20b9;6999</strike></h>
+<h class="Price3"> 42%off</h>
+
+</div>
+</body>
+
+</html>
